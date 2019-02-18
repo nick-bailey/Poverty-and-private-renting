@@ -1,14 +1,17 @@
 # Poverty-and-private-renting
-This project aims to analyse changes in housing tenure for low-income households in the UK, 1995-2016. In particular, the focus is on measuring the proportion of low income adults and children in private renting. It uses data from the UK Department for Work and Pensions' Family Resources Survey, along with the associated Households Below Average Incomes dataset. Code is written in SPSS. 
 
-## Working paper and on-line visualisation tool
+## Aims
+This project aims to analyse changes in housing tenure for low-income households in the UK, 1995-2016. In particular, the focus is on measuring the proportion of low income adults and children in private renting. It uses data from the UK Department for Work and Pensions' Family Resources Survey, along with the associated Households Below Average Incomes dataset. 
+
+## Working paper, aggregated data and on-line visualisation tool
 Results have been written up as a working paper which will be upload to github shortly (Feb 2019). 
 
-The data have also been used to produce an [on-line data visualisation tool](https://ubdc-apps.shinyapps.io/data_explorer_adult/). This is hosted by the [Urban Big Data Centre](www.ubdc.ac.uk) on an RShiny server. The on-line tool allows users to experiment with a wide range of colour schemes which may help those with colour-vision impairment. They can explore how the choice of poverty measure influences results, or examine variations between regions in much more detail. The aggregated data can also be downloaded there. 
+The aggregated data which underpin the figures in the working paper can be downloaded here (two csv files for adults and children separately). 
+
+The aggregated data have also been used to produce an [on-line data visualisation tool](https://ubdc-apps.shinyapps.io/data_explorer_adult/). This is hosted by the [Urban Big Data Centre](www.ubdc.ac.uk) on an RShiny server. The on-line tool allows users to experiment with a wide range of colour schemes which may help those with colour-vision impairment. They can explore how the choice of poverty measure influences results, or examine variations between regions in much more detail. The aggregated data can also be downloaded there. 
 
 ## SPSS syntax
-The code was written for IBM's SPSS Statistics software (v.24). The file "FRS HBAI - master - public v1.sps" (the master file) runs the entire analysis, calling the other syntax files in turn (and two further files which format charts). It produces the figures used in the paper but also the two csv files used in the Urban [on-line data visualisation tool](https://ubdc-apps.shinyapps.io/data_explorer_adult/). 
-The master file starts with the following note: 
+The code for the analysis was written for IBM's SPSS Statistics software (v.24). The file "FRS HBAI - master - public v1.sps" (the master file) runs the entire analysis, calling the other syntax files in turn (and two further files which format charts). It produces the figures used in the paper but also the two csv files used in the Urban [on-line data visualisation tool](https://ubdc-apps.shinyapps.io/data_explorer_adult/). The master file starts with the following note: 
 
 *    0. INTRODUCTION
 *        THE SYNTAX FILE REPRODUCES ALL THE FIGURES IN THE PAPER. 
@@ -22,7 +25,7 @@ The master file starts with the following note:
 *        FEEDBACK ON THE CODE IS WELCOMED. 
 
 ## Data sources
-This note appears in the 'master' file and explains how to obtain the data. 
+This note appears in the 'master' file and explains how to obtain the individual-level survey data. 
 
 *    1. DATA SOURCES
 *         THE SYNTAX RUNS ON A SET OF FILES DOWNLOADED FROM THE UK DATA SERVICE.
