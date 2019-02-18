@@ -7,10 +7,6 @@ output close all.
 ***   GENERAL NOTES: 
 ***             WRITTEN BY NICK BAILEY, UNIVERSITY OF GLASGOW. 
 ***.
-***.
-***                                COPYRIGHT CC-BY-SA. 
-***.
-***.
 ***             THIS SET OF SYNTAX FILES PRODUCED THE ANALYSIS FOR:
 ***                Bailey, Nick (2018) Poverty and the re-growth of private renting in the UK. 
 ***                
