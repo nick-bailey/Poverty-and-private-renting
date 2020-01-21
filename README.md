@@ -4,9 +4,9 @@
 This project aims to analyse changes in housing tenure for low-income households in the UK, 1995-2018. In particular, the focus is on measuring the proportion of low income adults and children in private renting. It uses data from the UK Department for Work and Pensions' Family Resources Survey, along with the associated Households Below Average Incomes dataset. 
 
 ## Working paper, aggregated data and on-line visualisation tool
-Results have been written up as a working paper which will be upload to github shortly (2019). 
+Results have been written up and will be published in PLOS ONE on 5 February 2020. 
 
-The aggregated data which underpin the figures in the working paper can be downloaded here (two csv files for Lexis surfaces for adults and children separately, and separate csv files for each line graph). 
+The aggregated data which underpin the figures in the working paper can be downloaded above (two csv files for Lexis surfaces for adults and children separately ('FRS HBAI - tables.csv' and '- tables ch.csv', and separate csv files for each line graph). The figures are also available as tif and pdf above. 
 
 The aggregated data have also been used to produce an [on-line data visualisation tool](https://ubdc-apps.shinyapps.io/data_explorer_adult/). This is hosted by the [Urban Big Data Centre](www.ubdc.ac.uk) on an RShiny server. The on-line tool allows users to experiment with a wide range of colour schemes which may help those with colour-vision impairment. They can explore how the choice of poverty measure influences results, or examine variations between regions in much more detail. The aggregated data can also be downloaded there. 
 
