@@ -3,6 +3,9 @@
 ## Aims
 This project aims to analyse changes in housing tenure for low-income households in the UK, 1995-2018. In particular, the focus is on measuring the proportion of low income adults and children in private renting. It uses data from the UK Department for Work and Pensions' Family Resources Survey, along with the associated Households Below Average Incomes dataset. 
 
+## UPDATE 15 MAY 2020
+With the release for FRS and HBAI data for 2018/19, I have updated the code and produced updated versions of the figures and csv files. The version of the code which produced the PLOS ONE paper results is now in a sub-directory along with the original figures and csv files. I have also extended the code to produce heatmaps by income quintile and decile, in addition to poverty status. 
+
 ## Results paper, aggregated data and on-line visualisation tool
 Results have been published in PLOS ONE on 5 February 2020 - https://doi.org/10.1371/journal.pone.0228273. 
 
